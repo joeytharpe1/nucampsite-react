@@ -125,7 +125,7 @@ class CommentForm extends Component {
               </div>
               <div className="form-group">
                 <Label htmlFor="text">Comment</Label>
-                <Control.textarea model=".text" id="text" name="text" rows="6" className="form-control" />
+                <Control.textrea model=".text" id="text" name="text" rows="6" className="form-control" />
               </div>
               <Button type="submit" color="primary" >
                 Submit
